@@ -14,21 +14,25 @@ int main()
         printf("Result is %0.2f\n", a + b);
         return 0;
     }
-    if (o == 2)
+    else if (o == 2)
     {
         printf("Result is %0.2f\n", a - b);
         return 0;
     }
-    if (o == 3)
+    else if (o == 3)
     {
         printf("Result is %0.2f\n", a * b);
         return 0;
     }
-    if (o == 4)
+    else if (o == 4)
     {
         printf("Result is %0.2f\n", a / b);
         return 0;
     }
-    printf("Invalid Input.");
+    else
+    {
+        printf("Invalid Input.");
+    }
+
     return 0;
 }
