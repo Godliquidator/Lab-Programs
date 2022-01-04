@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-primenumber(int n)
+int primenumber(int n)
 {
     int num, count, i, prime;
     for (num = 1; num <= n; num++)
